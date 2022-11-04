@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test/test.js"
+    "test": "node ./test/test.js",
+    "format": "prettier --write src"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,9 @@
   "homepage": "https://github.com/IchiroSh/dig-imr-3-pairproject#readme",
   "devDependencies": {
     "chai": "^4.3.6",
+    "eslint": "^8.26.0",
     "jasmine": "^4.5.0",
-    "mocha": "^10.1.0"
+    "mocha": "^10.1.0",
+    "prettier": "^2.7.1"
   }
 }
