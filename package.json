@@ -1,0 +1,24 @@
+{
+  "name": "dig-imr-3-pairproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IchiroSh/dig-imr-3-pairproject.git"
+  },
+  "author": "Ichiharasan Shibasaki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IchiroSh/dig-imr-3-pairproject/issues"
+  },
+  "homepage": "https://github.com/IchiroSh/dig-imr-3-pairproject#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "jasmine": "^4.5.0",
+    "mocha": "^10.1.0"
+  }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align:center;">Javascript チャレンジ</h1>
+    <div class="question__warapper">
+        <p id="question"></p>
+        <p id="reply"></p>
+    </div>
+    <div class="editor">
+        <div class="editor__wrapper">
+            <div class="editor__body">
+                <div id="editorCode" class="editor__code"></div>
+            </div>
+            <div class="editor__footer">
+                <div class="editor__footer--left">
+                    <button class="editor__btn editor__run">Run ></button>
+                    <button class="editor__btn editor__reset">Reset ></button>
+                    <button class="editor__btn editor__scoring">scoring ></button>
+                </div>
+                <div class="editor__footer--right">
+                    <div class="editor__console">
+                        <ul class="editor__console-logs"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="box2">
+            <p>練習問題</p>
+            <button class="select__mode">問題1</button>
+            <button class="select__mode">問題2</button>
+            <!-- <button class="select__mode">設定3</button>
+            <button class="select__mode">設定4</button>
+            <button class="select__mode">設定5</button> -->
+            <a id="help" href="https://www.google.com/?hl=ja" target="_blank" rel="noopener noreferrer">ヒント</a>
+        </div>
+    </div>
+    
+    <script src="../src/src-min/ace.js"></script>
+    <script src="../src/src-min/mode-javascript.js"></script>
+    <script src="../src/src-min/ext-language_tools.js"></script>
+    <script src="../src/main.js"></script>
+    <script src="../src/sub.js"></script>
+    <script src="../src/editorConsole.js"></script>
+    <!-- <script src="../test/test.js"></script> -->
+</body>
+</html>
